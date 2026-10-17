@@ -6,6 +6,8 @@ At commute time a car-keys reminder appears in mid-air in the hallway, on the wa
 
 The Lens was planned with the Devpost Learn skill pack (`plan-lens`) and built by an AI coding agent through Snap's CLAD plugin and the Lens Studio MCP. Everything runs in Lens Studio's preview; no SPECS device was used.
 
+Demo video (62 s, edited Lens Studio desktop preview): https://www.youtube.com/watch?v=JwYxMH_fp_Q
+
 ## Run it
 
 1. Open `SpecsBaseTemplate.esproj` in Lens Studio 5.24 or later.
