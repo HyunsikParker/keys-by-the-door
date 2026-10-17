@@ -1,0 +1,19 @@
+# BEGIN Lens Studio managed Agents-Docs block
+.mcp.json
+.cursor/mcp.json
+.vscode/mcp.json
+.codex/config.toml
+.claude/settings.local.json
+ls-live-instance.json
+ls-live-instance.json.tmp
+# END Lens Studio managed Agents-Docs block
+
+# Local signing key and agent connection state; never published
+spk_debug_key.pem
+.clad/
+
+# Added by Lens Studio (LEAF plugin)
+leaf_plugin_settings.json
+
+# Lens Studio session lock files (they hold local paths)
+*.lock
