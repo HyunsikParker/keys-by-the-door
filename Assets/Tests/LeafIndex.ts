@@ -8,6 +8,7 @@ import {KbdApproachBounceScenario} from "./KbdApproachBounceScenario"
 import {KbdApproachWithKeysNoBounceScenario} from "./KbdApproachWithKeysNoBounceScenario"
 import {KbdWalkOutNoKeysScenario} from "./KbdWalkOutNoKeysScenario"
 import {KbdWalkOutWithKeysScenario} from "./KbdWalkOutWithKeysScenario"
+import {KbdOutOfViewArrowScenario} from "./KbdOutOfViewArrowScenario"
 
 @component
 export class LeafIndex extends BaseScriptComponent {
@@ -21,5 +22,6 @@ export class LeafIndex extends BaseScriptComponent {
     {id: "kbd-3c-approach-with-keys-no-bounce", typename: KbdApproachWithKeysNoBounceScenario.getTypeName()},
     {id: "kbd-4a-walk-out-no-keys", typename: KbdWalkOutNoKeysScenario.getTypeName()},
     {id: "kbd-4b-walk-out-with-keys", typename: KbdWalkOutWithKeysScenario.getTypeName()},
+    {id: "kbd-5-out-of-view-arrow", typename: KbdOutOfViewArrowScenario.getTypeName()},
   ]
 }

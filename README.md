@@ -27,7 +27,7 @@ In the real version the glasses would recognise the keys and the door. The previ
 
 ## Tests
 
-Each done criterion in the design brief has LEAF scenarios, run in Lens Studio's preview (`Assets/Tests/`). All eight passed in the last run.
+Each done criterion in the design brief has LEAF scenarios, run in Lens Studio's preview (`Assets/Tests/`), plus one scenario for the out-of-view hint. All nine passed in the last run.
 
 | Done criterion | Scenarios |
 |---|---|
@@ -35,8 +35,9 @@ Each done criterion in the design brief has LEAF scenarios, run in Lens Studio's
 | 2. Pinching the big button marks the car keys as taken | `kbd-2-pinch-have-keys`, `kbd-2ik-pinch-have-keys-ik` |
 | 3. Walking toward the door without pressing the button makes the reminder bounce | `kbd-3-approach-bounce`, plus the control `kbd-3c-approach-with-keys-no-bounce` |
 | 4. Walking out past the front door makes the reminder disappear | `kbd-4a-walk-out-no-keys`, `kbd-4b-walk-out-with-keys` |
+| Out-of-view hint: turned away at 08:00, the arrow shows and the chime is requested; facing the hallway hides the arrow | `kbd-5-out-of-view-arrow` |
 
-The out-of-view chime and arrow have no automated test.
+The tests check that the chime is requested, not that it can be heard.
 
 ## How it was made
 
@@ -47,6 +48,6 @@ The out-of-view chime and arrow have no automated test.
 
 ## Limits
 
-- Logic proven in the preview: the four done criteria above.
+- Logic proven in the preview: the four done criteria and the out-of-view arrow.
 - Feel unproven: whether a bouncing reminder catches your eye on real glasses without becoming annoying, and comfort over time.
 - Not included: recognising real keys or doors, other items or a to-do list, and remembering anything between sessions.
